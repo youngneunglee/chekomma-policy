@@ -2,7 +2,7 @@
 
 체납꼼짝마(체꼼마) 앱의 **개인정보처리방침 게시용 저장소**입니다.
 
-- 게시 페이지: <https://youngneunglee.github.io/chekomma/>
+- 게시 페이지: <https://youngneunglee.github.io/chekomma-policy/>
 - 내용: [`index.html`](index.html) 한 장뿐입니다.
 
 > **이 저장소에는 앱 소스 코드를 올리지 않습니다.**
