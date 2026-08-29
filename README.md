@@ -1,6 +1,6 @@
 # chekomma
 
-체납꼼짝마(체꼼마) 앱의 **개인정보처리방침 게시용 저장소**입니다.
+체꼼마 앱의 **개인정보처리방침 게시용 저장소**입니다.
 
 - 게시 페이지: <https://youngneunglee.github.io/chekomma-policy/>
 - 내용: [`index.html`](index.html) 한 장뿐입니다.
