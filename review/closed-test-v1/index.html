@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chekomma Google Play review access</title>
+  <style>
+    body { max-width: 54rem; margin: 0 auto; padding: 2rem 1.25rem 5rem;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", sans-serif;
+      line-height: 1.65; color: #172536; }
+    h1 { line-height: 1.2; } h2 { margin-top: 2rem; }
+    .notice { padding: 1rem 1.2rem; background: #eef6ff; border-left: 4px solid #1769aa; }
+    .downloads { display: flex; flex-wrap: wrap; gap: .75rem; margin: 1rem 0; }
+    .button { display: inline-block; padding: .7rem 1rem; border-radius: .45rem;
+      color: #fff; background: #075985; text-decoration: none; font-weight: 700; }
+    img { display: block; width: min(100%, 34rem); height: auto; margin: 1.5rem auto;
+      image-rendering: pixelated; }
+    table { width: 100%; border-collapse: collapse; font-size: .92rem; }
+    th, td { border: 1px solid #cbd5e1; padding: .55rem; text-align: left; vertical-align: top; }
+    th { background: #f1f5f9; }
+    code { overflow-wrap: anywhere; }
+    footer { margin-top: 3rem; border-top: 1px solid #cbd5e1; padding-top: 1rem; color: #526477; }
+  </style>
+</head>
+<body>
+  <h1>Chekomma — Google Play review access</h1>
+  <p class="notice"><strong>No login or account is required.</strong> These files are static and
+    have no cookie, token, password, or expiry. The review dataset contains eight synthetic names
+    and identifiers. Every address belongs to a public, non-residential facility.</p>
+
+  <h2>Downloads</h2>
+  <div class="downloads">
+    <a class="button" href="chekomma-review-qr.pdf" download>Download PDF QR</a>
+    <a class="button" href="chekomma-review-qr.png" download>Download PNG QR</a>
+  </div>
+
+  <h2>Review on one Android device</h2>
+  <ol>
+    <li>Download the PDF QR file above to the test device.</li>
+    <li>Launch Chekomma. Enter any non-sensitive photo-folder name and choose any visit-team
+      number on the initial setup screen.</li>
+    <li>For both <strong>출발지</strong> (Start) and <strong>도착지</strong> (End), choose
+      <strong>기타 주소</strong> (Other address), enter
+      <code>광주광역시 광산구 장덕동 1681</code>, verify the address, and save.</li>
+    <li>Tap <strong>PDF QR 가져오기</strong> (Import QR from PDF), then select the downloaded PDF.</li>
+    <li>Confirm that eight synthetic destinations appear.</li>
+    <li>Tap <strong>확인하고 경로 최적화</strong> (Confirm and optimize route).</li>
+    <li>Choose <strong>오프라인 경로 최적화</strong> (Offline route optimization). This keeps
+      the review route on the device and does not send it to TMAP.</li>
+  </ol>
+  <p>Alternative: display the PNG QR below on a second screen, then tap
+    <strong>QR 스캔</strong> (Scan QR) in the app.</p>
+
+  <a href="chekomma-review-qr.png"><img src="chekomma-review-qr.png"
+    alt="Static Chekomma review QR code with eight synthetic destinations"></a>
+
+  <h2>Public non-residential destinations</h2>
+  <p>The QR stores the corresponding Korean legal-lot address used by the app's offline address
+    data. The table shows each public facility and its public road address for easy verification.</p>
+  <table>
+    <thead><tr><th>#</th><th>Facility</th><th>Type</th><th>Public road address</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>수완호수공원</td><td>Park</td><td>광주광역시 광산구 장신로82번길 57</td></tr>
+      <tr><td>2</td><td>장덕도서관</td><td>Public library</td><td>광주광역시 광산구 풍영로 179</td></tr>
+      <tr><td>3</td><td>이야기꽃도서관</td><td>Public library</td><td>광주광역시 광산구 선운중앙로67번길 6</td></tr>
+      <tr><td>4</td><td>광주송정다가치문화도서관</td><td>Public library</td><td>광주광역시 광산구 송정공원로 8-13</td></tr>
+      <tr><td>5</td><td>광산구빛고을국민체육센터</td><td>Public sports facility</td><td>광주광역시 광산구 무진대로211번길 28</td></tr>
+      <tr><td>6</td><td>수완문화체육센터</td><td>Public sports facility</td><td>광주광역시 광산구 왕버들로132번길 11</td></tr>
+      <tr><td>7</td><td>첨단도서관</td><td>Public library</td><td>광주광역시 광산구 임방울대로 673-12</td></tr>
+      <tr><td>8</td><td>하남도서관</td><td>Public library</td><td>광주광역시 광산구 손재로 120</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Data statement</h2>
+  <p>All names and allocation identifiers in this QR are fabricated for review. No real person's
+    name, residential test address, phone number, account, credential, or live work record is
+    included. Chekomma is independently developed and is not issued or endorsed by a government
+    agency.</p>
+
+  <footer>
+    Versioned review path: <code>/review/closed-test-v1/</code><br>
+    <a href="../../">Privacy policy</a> · Contact: youngneunglee@gmail.com
+  </footer>
+</body>
+</html>

@@ -3,7 +3,8 @@
 체꼼마 앱의 **개인정보처리방침 게시용 저장소**입니다.
 
 - 게시 페이지: <https://youngneunglee.github.io/chekomma-policy/>
-- 내용: [`index.html`](index.html) 한 장뿐입니다.
+- 개인정보처리방침: [`index.html`](index.html)
+- Google Play 고정 심사자료: [`review/closed-test-v1/`](review/closed-test-v1/)
 
 > **이 저장소에는 앱 소스 코드를 올리지 않습니다.**
 > Google Play가 요구하는 개인정보처리방침 URL은 로그인 없이 접근 가능해야 하고
